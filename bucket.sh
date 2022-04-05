@@ -11,4 +11,4 @@ else
     echo "This bucket will be created with the name new-maurice-bucket-2022"
     aws s3api create-bucket --bucket new-maurice-bucket-2024 --create-bucket-configuration LocationConstraint=us-west-2
 fi 
-echo "Thanks"
+echo "Thank you everyone"
