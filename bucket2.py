@@ -8,4 +8,4 @@ bucket = s3.Bucket ('new-maurice-bucket-2024')
 if bucket.creation_date:
     print ("The bucket exists")
 else:
-    os.system('aws s3api create-bucket --bucket new-maurice-bucket-2024 --create-bucket-configuration LocationConstraint=us-west-2')
+    os.system('/usr/local/bin/aws s3api create-bucket --bucket new-maurice-bucket-2024 --create-bucket-configuration LocationConstraint=us-west-2')
